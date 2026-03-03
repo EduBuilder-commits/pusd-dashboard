@@ -1,0 +1,159 @@
+{
+  "coachingData": {
+    "tosaEngagementHoursPerDepartment": {
+      "Math": 120,
+      "Science": 95,
+      "ELA": 110,
+      "SocialStudies": 60,
+      "SpecialEducation": 40,
+      "Administration": 25
+    },
+    "pdAttendanceTracking": {
+      "sessionsTracked": 48,
+      "attendanceRatePercent": 92.3,
+      "notes": "PD attendance monitoring ongoing; late arrivals flagged"
+    },
+    "avidTraining": {
+      "initialHours": 8,
+      "annualFollowUpHours": 4
+    },
+    "avidTutorsLocalCollegesSocraticModel": {
+      "model": "Socratic",
+      "tutorCount": 12,
+      "partnerInstitutions": [
+        "City College A",
+        "State University B"
+      ]
+    },
+    "avidEnrollmentTracking_APPathways": {
+      "underrepresentedEnrollmentAPPathways": true,
+      "trackedPathways": [
+        "AP Computer Science A",
+        "AP Calculus BC",
+        "AP Physics 1"
+      ],
+      "notes": "Ongoing tracking of underrepresented student enrollment into AP pathways"
+    }
+  },
+  "eldElpiData": {
+    "eldSiteProgramCoordinatorPD_perYear": 3,
+    "elPI_history": {
+      "year": 2024,
+      "percentage": 53.4,
+      "tier": "Orange"
+    },
+    "elPI_decline_2024_percent": -4.6,
+    "ltelPreventionTracking": true,
+    "ltelPreventionNotes": "LTEL prevention framework to be implemented; baseline metrics to be established"
+  },
+  "coTeachingInclusion": {
+    "coTeachingSections": {
+      "totalSections": 450,
+      "percentageWithSpecialEducation": 30,
+      "modelsUsed": {
+        "OneTeachOneObserve": 35,
+        "StationTeaching": 25,
+        "ParallelTeaching": 20,
+        "AlternativeTeaching": 12,
+        "Teaming": 8
+      }
+    },
+    "inclusionMetrics": {
+      "iep80Plus_GeneralEd": 78,
+      "iep40to79_GeneralEd": 15,
+      "iepLess40_GeneralEd": 7
+    },
+    "coTeachingOutcomes": {
+      "proficiencyVsTraditional": 12,
+      "spedGrowthGoalMet": 89,
+      "peerTutoringPartnershipsSchools": 45
+    },
+    "executiveSummaryView": {
+      "title": "Co-Teaching & Inclusion - Executive Summary",
+      "description": "One-page dashboard highlighting co-teaching impact and inclusion outcomes.",
+      "keyHighlights": [
+        "450 co-taught sections; 30% with SPED",
+        "Co-teaching proficiency advantage: +12% vs traditional",
+        "SPED students met growth goal: 89%",
+        "Peer tutoring partnerships: 45 schools"
+      ]
+    },
+    "equityFocus": {
+      "subgroupGaps": [
+        {"subgroup":"ELL","gap":"Need stronger English language support in core subjects"},
+        {"subgroup":"SPED","gap":"Growth targets achieved district-wide, but variability by school"}
+      ],
+      "interventions": [
+        "Expand co-teaching models in underperforming schools",
+        "Target MTSS supports for SPED students in gen ed",
+        "Professional development on inclusive practices"
+      ]
+    },
+    "ROI": {
+      "mtssCostPerStudent": 1200,
+      "outcomeIndex": 1.08
+    }
+  },
+  "financialData_2024_25": {
+    "totalRevenue": 541568815,
+    "unrestrictedBaseline": 506861138,
+    "lcapSupplementalConcentrationFunds": 34700000
+  },
+  "schoolsPerformanceData": {
+    "CSI": [
+      {
+        "name": "Abraxas Continuation High School",
+        "graduationRateTier": "Red",
+        "collegeCareerIndicator": "Very Low",
+        "notes": "Only PUSD CSI school"
+      }
+    ],
+    "elementaryChronicAbsenteeismRedTier": [
+      "Stone Ranch",
+      "Willow Grove",
+      "Westwood"
+    ],
+    "tsi": [
+      {
+        "name": "Sundance Elementary",
+        "hispanicChronicAbsenteeism": "Red"
+      },
+      {
+        "name": "Sunset Hills Elementary",
+        "sedChronicAbsenteeism": "Red"
+      }
+    ],
+    "otherRedSubgroupAlertsChronicAbsenteeism": [
+      {"name": "Adobe Bluffs", "notes": "Chronic absenteeism red alert"},
+      {"name": "Los Penasquitos", "notes": "Chronic absenteeism red alert"},
+      {"name": "Rolling Hills", "notes": "Chronic absenteeism red alert"},
+      {"name": "Bernardo Heights Middle School", "notes": "Middle school with Red tier for chronic absenteeism subgroup alerts"}
+    ],
+    "californiaHonorRollScholarSchools": [
+      "Deer Canyon Elementary",
+      "Del Norte High",
+      "Del Sur Elementary",
+      "Design39Campus",
+      "Monterey Ridge Elementary",
+      "Park Village Elementary",
+      "Rolling Hills Elementary",
+      "Westview High",
+      "Westwood Elementary"
+    ],
+    "starSchoolsHighSEDPopulations": [
+      "Garden Road Elementary",
+      "Los Penasquitos Elementary",
+      "Midland Elementary",
+      "Pomerado Elementary"
+    ],
+    "pbisAwards": {
+      "gold": ["Sunset Hills Elementary"],
+      "silver": ["Canyon View","Chaparral","Deer Canyon","Highland Ranch"],
+      "bronze": ["Morning Creek"]
+    }
+  },
+  "updateMetadata": {
+    "lastUpdatedISO": "2026-03-03T11:49:00-08:00",
+    "updatedBy": "pusd-dashboard-automation"
+  }
+}

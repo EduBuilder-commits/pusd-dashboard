@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --poway-blue: #1e3a8a;
+  --poway-blue-dark: #1b2a6b;
+  --poway-blue-light: #4f6bd9;
+}
+
+html, body, #__next {
+  height: 100%;
+}

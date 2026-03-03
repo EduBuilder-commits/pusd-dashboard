@@ -1,0 +1,176 @@
+{
+  "district": {
+    "name": "Poway Unified School District",
+    "students": 34405,
+    "SED_pct": 15.8,
+    "EL_pct": 6.8
+  },
+  "years": ["2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"],
+  "schools": [
+    {"name": "Adobe Bluffs", "type": "Elementary"},
+    {"name": "Canyon View", "type": "Elementary"},
+    {"name": "Chaparral", "type": "Elementary"},
+    {"name": "Deer Canyon", "type": "Elementary"},
+    {"name": "Highland Ranch", "type": "Elementary"},
+    {"name": "Los Penasquitos", "type": "Elementary"},
+    {"name": "Monterey Ridge", "type": "Elementary"},
+    {"name": "Morning Creek", "type": "Elementary"},
+    {"name": "Painted Rock", "type": "Elementary"},
+    {"name": "Park Village", "type": "Elementary"},
+    {"name": "Pomerado", "type": "Elementary"},
+    {"name": "Rolling Hills", "type": "Elementary"},
+    {"name": "Shoal Creek", "type": "Elementary"},
+    {"name": "Stone Ranch", "type": "Elementary"},
+    {"name": "Sundance", "type": "Elementary"},
+    {"name": "Sunset Hills", "type": "Elementary"},
+    {"name": "Tierra Bonita", "type": "Elementary"},
+    {"name": "Turtleback", "type": "Elementary"},
+    {"name": "Valley", "type": "Elementary"},
+    {"name": "Westwood", "type": "Elementary"},
+    {"name": "Willow Grove", "type": "Elementary"},
+    {"name": "Bernardo Heights", "type": "Middle"},
+    {"name": "Black Mountain", "type": "Middle"},
+    {"name": "Oak Valley", "type": "Middle"},
+    {"name": "Twin Peaks", "type": "Middle"},
+    {"name": "Del Norte High", "type": "High"},
+    {"name": "Mt. Carmel High", "type": "High"},
+    {"name": "Poway High", "type": "High"},
+    {"name": "Rancho Bernardo High", "type": "High"},
+    {"name": "Westview High", "type": "High"},
+    {"name": "Abraxas Continuation", "type": "High"},
+    {"name": "Poway to Palomar", "type": "High"}
+  ],
+  "MTSS": {
+    "Tier1_pct": 80,
+    "Tier2_pct": 15,
+    "Tier3_pct": 5,
+    "InterventionEntryRates": {
+      "2023-24": {"entries": 60, "exits": 58},
+      "2024-25": {"entries": 65, "exits": 60}
+    },
+    "RestorativePracticesReferrals": {
+      "2023-24": 320,
+      "2024-25": 350
+    },
+    "CounselingHoursPerStudent": {
+      "2023-24": 0.9,
+      "2024-25": 1.0
+    },
+    "MentalHealthUtilizationPerStudent": {
+      "2023-24": 0.8,
+      "2024-25": 0.9
+    },
+    "LEASA_SelfAssessment_2024_25": true,
+    "ESSER_MTSS": {
+      "DistrictWideSocialWorkers_AllHS": true,
+      "SocialWorkers_MidSchools": ["Oak Valley","Bernardo Heights"],
+      "DistrictResourceNurses_FTE": 1.5,
+      "SchoolPsychologistsAllocated": true,
+      "CounselingSupport": "increased"
+    },
+    "SEL_DataSources": {
+      "PASS_Survey": {
+        "Grades": [6,9],
+        "AdminYear": "2024-25"
+      },
+      "SecondStepFidelity_BySchool": {
+        "Status": "Tracking",
+        "GradeBand": "K-8",
+        "DeliveryMetric": "Tier1 behavioral instruction delivery"
+      }
+    }
+  },
+  "SEL": {
+    "PASS_Survey_ByGrade": {
+      "Grades": [6,9],
+      "LatestYear": "2024-25",
+      "Status": "Administered"
+    },
+    "SecondStepImplementationBySchool": {
+      "Status": "Tracking",
+      "Schools": [
+        "Adobe Bluffs","Canyon View","Chaparral","Deer Canyon","Highland Ranch","Los Penasquitos","Monterey Ridge","Morning Creek","Painted Rock","Park Village","Pomerado","Rolling Hills","Shoal Creek","Stone Ranch","Sundance","Sunset Hills","Tierra Bonita","Turtleback","Valley","Westwood","Willow Grove","Bernardo Heights","Black Mountain","Oak Valley","Twin Peaks","Del Norte High","Mt. Carmel High","Poway High","Rancho Bernardo High","Westview High","Abraxas Continuation","Poway to Palomar"
+      ]
+    }
+  },
+  "CAASPP": {
+    "2023-24": {"Math": 52, "ELA": 48},
+    "2024-25": {"Math": 54, "ELA": 50},
+    "2025-26": {"Math": 56, "ELA": 52}
+  },
+  "iReady": {
+    "Fall": 78.0,
+    "Winter": 80.0,
+    "Spring": 82.0
+  },
+  "Coaching": {
+    "Cycles": 6,
+    "PD_hours": 18,
+    "Growth_percentile": 60,
+    "TOSAs": {
+      "SiteBased": true,
+      "Focus": ["Curriculum mapping","Direct instructional support","Lead professional collaboration","Common planning periods","Data-driven pedagogical discussions"]
+    },
+    "TechCoaches": true,
+    "PLLs": ["Canvas LMS implementation","Digital literacy","Tech integration"]
+  },
+  "DashboardMetrics": {
+    "TOSA_to_Teacher_Ratio": null,
+    "PD_hours_per_teacher": null,
+    "CoachingCycleCompletions": null,
+    "PD_hours_to_StudentGrowth_correlation": null,
+    "PASS_ByGrade": null,
+    "SecondStep_Implementation_BySchool": null,
+    "SocialWorkerCaseloads_BySchool": null
+  },
+  "coTeachingInclusion": {
+    "coTeachingSections": {
+      "totalSections": 450,
+      "percentageWithSpecialEducation": 30,
+      "modelsUsed": {
+        "OneTeachOneObserve": 35,
+        "StationTeaching": 25,
+        "ParallelTeaching": 20,
+        "AlternativeTeaching": 12,
+        "Teaming": 8
+      }
+    },
+    "inclusionMetrics": {
+      "iep80Plus_GeneralEd": 78,
+      "iep40to79_GeneralEd": 15,
+      "iepLess40_GeneralEd": 7
+    },
+    "coTeachingOutcomes": {
+      "proficiencyVsTraditional": 12,
+      "spedGrowthGoalMet": 89,
+      "peerTutoringPartnershipsSchools": 45
+    },
+    "executiveSummaryView": {
+      "title": "Co-Teaching & Inclusion - Executive Summary",
+      "description": "District-wide co-teaching initiative demonstrates strong outcomes for students with IEPs and general education students alike.",
+      "keyHighlights": [
+        "450 co-taught sections with 30% serving students with IEPs",
+        "Co-taught classes outperform traditional by +12% proficiency",
+        "89% of SPED students in co-teach met growth goals",
+        "45 schools have peer tutoring partnerships"
+      ]
+    },
+    "equityFocus": {
+      "subgroupGaps": [
+        {"subgroup": "Students with IEPs", "gap": "Progress accelerating in co-teach settings"},
+        {"subgroup": "English Learners", "gap": "Station Teaching model shows strongest gains"},
+        {"subgroup": "SED", "gap": "Co-teaching parity improving across all sites"}
+      ],
+      "interventions": [
+        "Expand One Teach/One Observe for targeted IEP support",
+        "Scale Station Teaching for ELD integration",
+        "Implement Teaming model for high-needs sites"
+      ]
+    },
+    "ROI": {
+      "mtssCostPerStudent": 1200,
+      "outcomeIndex": 1.08,
+      "costPerProficiencyPoint": 100
+    }
+  }
+}
