@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY || 'sk-or-v2-default-key';
 
 export async function POST(request: NextRequest) {
   try {
@@ -17,20 +17,21 @@ Be concise but actionable.`;
       ? `Context: ${context}\n\nData: ${JSON.stringify(data)}\n\nQuestion: ${question}`
       : `Analyze this school district data and provide insights:\n\n${JSON.stringify(data)}\n\n${question || 'What are the key findings and recommendations?'}`;
 
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
+    const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'x-api-key': ANTHROPIC_API_KEY,
-        'anthropic-version': '2023-06-01'
+        'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
+        'HTTP-Referer': 'http://localhost:3008',
+        'X-Title': 'PUSD Dashboard'
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 1024,
-        system: systemPrompt,
+        model: 'openai/gpt-5-nano',
         messages: [
+          { role: 'system', content: systemPrompt },
           { role: 'user', content: userPrompt }
-        ]
+        ],
+        max_tokens: 1024
       })
     });
 
@@ -40,11 +41,11 @@ Be concise but actionable.`;
     }
 
     const result = await response.json();
-    const analysis = result.content[0]?.text || 'No analysis generated';
+    const analysis = result.choices?.[0]?.message?.content || 'No analysis generated';
 
     return NextResponse.json({ 
       analysis,
-      model: 'claude-sonnet-4-20250514'
+      model: 'gpt-5-nano'
     });
 
   } catch (error) {
