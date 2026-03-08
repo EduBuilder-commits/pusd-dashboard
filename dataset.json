@@ -1,159 +1,382 @@
-{
-  "coachingData": {
-    "tosaEngagementHoursPerDepartment": {
-      "Math": 120,
-      "Science": 95,
-      "ELA": 110,
-      "SocialStudies": 60,
-      "SpecialEducation": 40,
-      "Administration": 25
-    },
-    "pdAttendanceTracking": {
-      "sessionsTracked": 48,
-      "attendanceRatePercent": 92.3,
-      "notes": "PD attendance monitoring ongoing; late arrivals flagged"
-    },
-    "avidTraining": {
-      "initialHours": 8,
-      "annualFollowUpHours": 4
-    },
-    "avidTutorsLocalCollegesSocraticModel": {
-      "model": "Socratic",
-      "tutorCount": 12,
-      "partnerInstitutions": [
-        "City College A",
-        "State University B"
-      ]
-    },
-    "avidEnrollmentTracking_APPathways": {
-      "underrepresentedEnrollmentAPPathways": true,
-      "trackedPathways": [
-        "AP Computer Science A",
-        "AP Calculus BC",
-        "AP Physics 1"
-      ],
-      "notes": "Ongoing tracking of underrepresented student enrollment into AP pathways"
-    }
+[
+  {
+    "id": "PUSD-001",
+    "name": "Adobe Bluffs Elementary",
+    "level": "Elementary",
+    "enrollment": 620,
+    "demographics": {"SED": 35, "EL": 18, "SPED": 10},
+    "assessment": {"iReady": {"Math": 58, "Reading": 55}, "CAASPP": {"ELA": 62, "Math": 58}},
+    "attendance": 96.2,
+    "climate": 4.3
   },
-  "eldElpiData": {
-    "eldSiteProgramCoordinatorPD_perYear": 3,
-    "elPI_history": {
-      "year": 2024,
-      "percentage": 53.4,
-      "tier": "Orange"
-    },
-    "elPI_decline_2024_percent": -4.6,
-    "ltelPreventionTracking": true,
-    "ltelPreventionNotes": "LTEL prevention framework to be implemented; baseline metrics to be established"
+  {
+    "id": "PUSD-002",
+    "name": "Canyon View Elementary",
+    "level": "Elementary",
+    "enrollment": 540,
+    "demographics": {"SED": 28, "EL": 12, "SPED": 8},
+    "assessment": {"iReady": {"Math": 62, "Reading": 60}, "CAASPP": {"ELA": 68, "Math": 64}},
+    "attendance": 96.8,
+    "climate": 4.5
   },
-  "coTeachingInclusion": {
-    "coTeachingSections": {
-      "totalSections": 450,
-      "percentageWithSpecialEducation": 30,
-      "modelsUsed": {
-        "OneTeachOneObserve": 35,
-        "StationTeaching": 25,
-        "ParallelTeaching": 20,
-        "AlternativeTeaching": 12,
-        "Teaming": 8
-      }
-    },
-    "inclusionMetrics": {
-      "iep80Plus_GeneralEd": 78,
-      "iep40to79_GeneralEd": 15,
-      "iepLess40_GeneralEd": 7
-    },
-    "coTeachingOutcomes": {
-      "proficiencyVsTraditional": 12,
-      "spedGrowthGoalMet": 89,
-      "peerTutoringPartnershipsSchools": 45
-    },
-    "executiveSummaryView": {
-      "title": "Co-Teaching & Inclusion - Executive Summary",
-      "description": "One-page dashboard highlighting co-teaching impact and inclusion outcomes.",
-      "keyHighlights": [
-        "450 co-taught sections; 30% with SPED",
-        "Co-teaching proficiency advantage: +12% vs traditional",
-        "SPED students met growth goal: 89%",
-        "Peer tutoring partnerships: 45 schools"
-      ]
-    },
-    "equityFocus": {
-      "subgroupGaps": [
-        {"subgroup":"ELL","gap":"Need stronger English language support in core subjects"},
-        {"subgroup":"SPED","gap":"Growth targets achieved district-wide, but variability by school"}
-      ],
-      "interventions": [
-        "Expand co-teaching models in underperforming schools",
-        "Target MTSS supports for SPED students in gen ed",
-        "Professional development on inclusive practices"
-      ]
-    },
-    "ROI": {
-      "mtssCostPerStudent": 1200,
-      "outcomeIndex": 1.08
-    }
+  {
+    "id": "PUSD-003",
+    "name": "Chaparral Elementary",
+    "level": "Elementary",
+    "enrollment": 580,
+    "demographics": {"SED": 32, "EL": 15, "SPED": 9},
+    "assessment": {"iReady": {"Math": 60, "Reading": 58}, "CAASPP": {"ELA": 65, "Math": 61}},
+    "attendance": 96.5,
+    "climate": 4.4
   },
-  "financialData_2024_25": {
-    "totalRevenue": 541568815,
-    "unrestrictedBaseline": 506861138,
-    "lcapSupplementalConcentrationFunds": 34700000
+  {
+    "id": "PUSD-004",
+    "name": "Creekside Elementary",
+    "level": "Elementary",
+    "enrollment": 510,
+    "demographics": {"SED": 30, "EL": 14, "SPED": 11},
+    "assessment": {"iReady": {"Math": 59, "Reading": 57}, "CAASPP": {"ELA": 64, "Math": 60}},
+    "attendance": 96.1,
+    "climate": 4.2
   },
-  "schoolsPerformanceData": {
-    "CSI": [
-      {
-        "name": "Abraxas Continuation High School",
-        "graduationRateTier": "Red",
-        "collegeCareerIndicator": "Very Low",
-        "notes": "Only PUSD CSI school"
-      }
-    ],
-    "elementaryChronicAbsenteeismRedTier": [
-      "Stone Ranch",
-      "Willow Grove",
-      "Westwood"
-    ],
-    "tsi": [
-      {
-        "name": "Sundance Elementary",
-        "hispanicChronicAbsenteeism": "Red"
-      },
-      {
-        "name": "Sunset Hills Elementary",
-        "sedChronicAbsenteeism": "Red"
-      }
-    ],
-    "otherRedSubgroupAlertsChronicAbsenteeism": [
-      {"name": "Adobe Bluffs", "notes": "Chronic absenteeism red alert"},
-      {"name": "Los Penasquitos", "notes": "Chronic absenteeism red alert"},
-      {"name": "Rolling Hills", "notes": "Chronic absenteeism red alert"},
-      {"name": "Bernardo Heights Middle School", "notes": "Middle school with Red tier for chronic absenteeism subgroup alerts"}
-    ],
-    "californiaHonorRollScholarSchools": [
-      "Deer Canyon Elementary",
-      "Del Norte High",
-      "Del Sur Elementary",
-      "Design39Campus",
-      "Monterey Ridge Elementary",
-      "Park Village Elementary",
-      "Rolling Hills Elementary",
-      "Westview High",
-      "Westwood Elementary"
-    ],
-    "starSchoolsHighSEDPopulations": [
-      "Garden Road Elementary",
-      "Los Penasquitos Elementary",
-      "Midland Elementary",
-      "Pomerado Elementary"
-    ],
-    "pbisAwards": {
-      "gold": ["Sunset Hills Elementary"],
-      "silver": ["Canyon View","Chaparral","Deer Canyon","Highland Ranch"],
-      "bronze": ["Morning Creek"]
-    }
+  {
+    "id": "PUSD-005",
+    "name": "Deer Canyon Elementary",
+    "level": "Elementary",
+    "enrollment": 490,
+    "demographics": {"SED": 25, "EL": 10, "SPED": 8},
+    "assessment": {"iReady": {"Math": 65, "Reading": 63}, "CAASPP": {"ELA": 72, "Math": 68}},
+    "attendance": 97.1,
+    "climate": 4.6
   },
-  "updateMetadata": {
-    "lastUpdatedISO": "2026-03-03T11:49:00-08:00",
-    "updatedBy": "pusd-dashboard-automation"
+  {
+    "id": "PUSD-006",
+    "name": "Del Sur Elementary",
+    "level": "Elementary",
+    "enrollment": 550,
+    "demographics": {"SED": 28, "EL": 12, "SPED": 9},
+    "assessment": {"iReady": {"Math": 61, "Reading": 59}, "CAASPP": {"ELA": 66, "Math": 62}},
+    "attendance": 96.4,
+    "climate": 4.4
+  },
+  {
+    "id": "PUSD-007",
+    "name": "Design39Campus",
+    "level": "Elementary",
+    "enrollment": 720,
+    "demographics": {"SED": 22, "EL": 8, "SPED": 7},
+    "assessment": {"iReady": {"Math": 68, "Reading": 66}, "CAASPP": {"ELA": 75, "Math": 71}},
+    "attendance": 97.2,
+    "climate": 4.7
+  },
+  {
+    "id": "PUSD-008",
+    "name": "Garden Road Elementary",
+    "level": "Elementary",
+    "enrollment": 380,
+    "demographics": {"SED": 45, "EL": 22, "SPED": 12},
+    "assessment": {"iReady": {"Math": 52, "Reading": 48}, "CAASPP": {"ELA": 55, "Math": 50}},
+    "attendance": 95.3,
+    "climate": 4.0
+  },
+  {
+    "id": "PUSD-009",
+    "name": "Highland Ranch Elementary",
+    "level": "Elementary",
+    "enrollment": 560,
+    "demographics": {"SED": 26, "EL": 11, "SPED": 8},
+    "assessment": {"iReady": {"Math": 63, "Reading": 61}, "CAASPP": {"ELA": 69, "Math": 65}},
+    "attendance": 96.7,
+    "climate": 4.5
+  },
+  {
+    "id": "PUSD-010",
+    "name": "Los Peñasquitos Elementary",
+    "level": "Elementary",
+    "enrollment": 520,
+    "demographics": {"SED": 30, "EL": 13, "SPED": 9},
+    "assessment": {"iReady": {"Math": 60, "Reading": 58}, "CAASPP": {"ELA": 65, "Math": 61}},
+    "attendance": 96.3,
+    "climate": 4.3
+  },
+  {
+    "id": "PUSD-011",
+    "name": "Midland Elementary",
+    "level": "Elementary",
+    "enrollment": 420,
+    "demographics": {"SED": 48, "EL": 25, "SPED": 11},
+    "assessment": {"iReady": {"Math": 50, "Reading": 47}, "CAASPP": {"ELA": 52, "Math": 47}},
+    "attendance": 94.8,
+    "climate": 3.9
+  },
+  {
+    "id": "PUSD-012",
+    "name": "Monterey Ridge Elementary",
+    "level": "Elementary",
+    "enrollment": 590,
+    "demographics": {"SED": 24, "EL": 9, "SPED": 8},
+    "assessment": {"iReady": {"Math": 64, "Reading": 62}, "CAASPP": {"ELA": 70, "Math": 66}},
+    "attendance": 96.9,
+    "climate": 4.5
+  },
+  {
+    "id": "PUSD-013",
+    "name": "Morning Creek Elementary",
+    "level": "Elementary",
+    "enrollment": 480,
+    "demographics": {"SED": 34, "EL": 16, "SPED": 10},
+    "assessment": {"iReady": {"Math": 57, "Reading": 54}, "CAASPP": {"ELA": 60, "Math": 56}},
+    "attendance": 95.8,
+    "climate": 4.2
+  },
+  {
+    "id": "PUSD-014",
+    "name": "Painted Rock Elementary",
+    "level": "Elementary",
+    "enrollment": 510,
+    "demographics": {"SED": 38, "EL": 18, "SPED": 10},
+    "assessment": {"iReady": {"Math": 55, "Reading": 52}, "CAASPP": {"ELA": 58, "Math": 53}},
+    "attendance": 95.5,
+    "climate": 4.1
+  },
+  {
+    "id": "PUSD-015",
+    "name": "Park Village Elementary",
+    "level": "Elementary",
+    "enrollment": 470,
+    "demographics": {"SED": 27, "EL": 11, "SPED": 8},
+    "assessment": {"iReady": {"Math": 64, "Reading": 62}, "CAASPP": {"ELA": 71, "Math": 67}},
+    "attendance": 97.0,
+    "climate": 4.6
+  },
+  {
+    "id": "PUSD-016",
+    "name": "Pomerado Elementary",
+    "level": "Elementary",
+    "enrollment": 390,
+    "demographics": {"SED": 42, "EL": 20, "SPED": 11},
+    "assessment": {"iReady": {"Math": 51, "Reading": 48}, "CAASPP": {"ELA": 54, "Math": 49}},
+    "attendance": 95.0,
+    "climate": 3.9
+  },
+  {
+    "id": "PUSD-017",
+    "name": "Rolling Hills Elementary",
+    "level": "Elementary",
+    "enrollment": 530,
+    "demographics": {"SED": 28, "EL": 12, "SPED": 9},
+    "assessment": {"iReady": {"Math": 62, "Reading": 60}, "CAASPP": {"ELA": 68, "Math": 64}},
+    "attendance": 96.6,
+    "climate": 4.4
+  },
+  {
+    "id": "PUSD-018",
+    "name": "Shoal Creek Elementary",
+    "level": "Elementary",
+    "enrollment": 500,
+    "demographics": {"SED": 32, "EL": 14, "SPED": 9},
+    "assessment": {"iReady": {"Math": 59, "Reading": 56}, "CAASPP": {"ELA": 63, "Math": 59}},
+    "attendance": 96.2,
+    "climate": 4.3
+  },
+  {
+    "id": "PUSD-019",
+    "name": "Stone Ranch Elementary",
+    "level": "Elementary",
+    "enrollment": 570,
+    "demographics": {"SED": 25, "EL": 10, "SPED": 8},
+    "assessment": {"iReady": {"Math": 65, "Reading": 63}, "CAASPP": {"ELA": 72, "Math": 68}},
+    "attendance": 97.0,
+    "climate": 4.5
+  },
+  {
+    "id": "PUSD-020",
+    "name": "Sundance Elementary",
+    "level": "Elementary",
+    "enrollment": 440,
+    "demographics": {"SED": 36, "EL": 17, "SPED": 10},
+    "assessment": {"iReady": {"Math": 54, "Reading": 51}, "CAASPP": {"ELA": 57, "Math": 52}},
+    "attendance": 95.4,
+    "climate": 4.0
+  },
+  {
+    "id": "PUSD-021",
+    "name": "Sunset Hills Elementary",
+    "level": "Elementary",
+    "enrollment": 460,
+    "demographics": {"SED": 33, "EL": 15, "SPED": 9},
+    "assessment": {"iReady": {"Math": 58, "Reading": 55}, "CAASPP": {"ELA": 61, "Math": 57}},
+    "attendance": 96.0,
+    "climate": 4.2
+  },
+  {
+    "id": "PUSD-022",
+    "name": "Tierra Bonita Elementary",
+    "level": "Elementary",
+    "enrollment": 480,
+    "demographics": {"SED": 40, "EL": 19, "SPED": 10},
+    "assessment": {"iReady": {"Math": 53, "Reading": 50}, "CAASPP": {"ELA": 56, "Math": 51}},
+    "attendance": 95.2,
+    "climate": 4.0
+  },
+  {
+    "id": "PUSD-023",
+    "name": "Turtleback Elementary",
+    "level": "Elementary",
+    "enrollment": 520,
+    "demographics": {"SED": 29, "EL": 13, "SPED": 9},
+    "assessment": {"iReady": {"Math": 61, "Reading": 59}, "CAASPP": {"ELA": 66, "Math": 62}},
+    "attendance": 96.5,
+    "climate": 4.4
+  },
+  {
+    "id": "PUSD-024",
+    "name": "Valley Elementary",
+    "level": "Elementary",
+    "enrollment": 360,
+    "demographics": {"SED": 52, "EL": 28, "SPED": 13},
+    "assessment": {"iReady": {"Math": 46, "Reading": 43}, "CAASPP": {"ELA": 48, "Math": 43}},
+    "attendance": 94.2,
+    "climate": 3.7
+  },
+  {
+    "id": "PUSD-025",
+    "name": "Westwood Elementary",
+    "level": "Elementary",
+    "enrollment": 540,
+    "demographics": {"SED": 27, "EL": 11, "SPED": 8},
+    "assessment": {"iReady": {"Math": 64, "Reading": 62}, "CAASPP": {"ELA": 70, "Math": 66}},
+    "attendance": 96.8,
+    "climate": 4.5
+  },
+  {
+    "id": "PUSD-026",
+    "name": "Black Mountain Middle",
+    "level": "Middle",
+    "enrollment": 820,
+    "demographics": {"SED": 35, "EL": 14, "SPED": 11},
+    "assessment": {"iReady": {"Math": 58, "Reading": 55}, "CAASPP": {"ELA": 62, "Math": 57}},
+    "attendance": 95.8,
+    "climate": 4.2
+  },
+  {
+    "id": "PUSD-027",
+    "name": "Bernardo Heights Middle",
+    "level": "Middle",
+    "enrollment": 780,
+    "demographics": {"SED": 30, "EL": 12, "SPED": 10},
+    "assessment": {"iReady": {"Math": 62, "Reading": 59}, "CAASPP": {"ELA": 66, "Math": 61}},
+    "attendance": 96.2,
+    "climate": 4.4
+  },
+  {
+    "id": "PUSD-028",
+    "name": "Meadowbrook Middle",
+    "level": "Middle",
+    "enrollment": 710,
+    "demographics": {"SED": 38, "EL": 16, "SPED": 12},
+    "assessment": {"iReady": {"Math": 55, "Reading": 52}, "CAASPP": {"ELA": 58, "Math": 53}},
+    "attendance": 95.4,
+    "climate": 4.0
+  },
+  {
+    "id": "PUSD-029",
+    "name": "Mesa Verde Middle",
+    "level": "Middle",
+    "enrollment": 850,
+    "demographics": {"SED": 25, "EL": 9, "SPED": 8},
+    "assessment": {"iReady": {"Math": 68, "Reading": 65}, "CAASPP": {"ELA": 73, "Math": 68}},
+    "attendance": 97.0,
+    "climate": 4.6
+  },
+  {
+    "id": "PUSD-030",
+    "name": "Oak Valley Middle",
+    "level": "Middle",
+    "enrollment": 800,
+    "demographics": {"SED": 28, "EL": 11, "SPED": 9},
+    "assessment": {"iReady": {"Math": 65, "Reading": 62}, "CAASPP": {"ELA": 70, "Math": 65}},
+    "attendance": 96.6,
+    "climate": 4.5
+  },
+  {
+    "id": "PUSD-031",
+    "name": "Twin Peaks Middle",
+    "level": "Middle",
+    "enrollment": 740,
+    "demographics": {"SED": 32, "EL": 13, "SPED": 10},
+    "assessment": {"iReady": {"Math": 60, "Reading": 57}, "CAASPP": {"ELA": 64, "Math": 59}},
+    "attendance": 96.0,
+    "climate": 4.3
+  },
+  {
+    "id": "PUSD-032",
+    "name": "Del Norte High",
+    "level": "High",
+    "enrollment": 2100,
+    "demographics": {"SED": 28, "EL": 10, "SPED": 9},
+    "assessment": {"iReady": {"Math": 68, "Reading": 65}, "CAASPP": {"ELA": 74, "Math": 69}},
+    "attendance": 96.8,
+    "climate": 4.5
+  },
+  {
+    "id": "PUSD-033",
+    "name": "Mt. Carmel High",
+    "level": "High",
+    "enrollment": 1850,
+    "demographics": {"SED": 32, "EL": 12, "SPED": 10},
+    "assessment": {"iReady": {"Math": 64, "Reading": 61}, "CAASPP": {"ELA": 68, "Math": 63}},
+    "attendance": 96.2,
+    "climate": 4.3
+  },
+  {
+    "id": "PUSD-034",
+    "name": "Poway High",
+    "level": "High",
+    "enrollment": 1650,
+    "demographics": {"SED": 38, "EL": 15, "SPED": 11},
+    "assessment": {"iReady": {"Math": 60, "Reading": 57}, "CAASPP": {"ELA": 63, "Math": 58}},
+    "attendance": 95.6,
+    "climate": 4.1
+  },
+  {
+    "id": "PUSD-035",
+    "name": "Rancho Bernardo High",
+    "level": "High",
+    "enrollment": 1950,
+    "demographics": {"SED": 30, "EL": 11, "SPED": 10},
+    "assessment": {"iReady": {"Math": 66, "Reading": 63}, "CAASPP": {"ELA": 70, "Math": 65}},
+    "attendance": 96.4,
+    "climate": 4.4
+  },
+  {
+    "id": "PUSD-036",
+    "name": "Westview High",
+    "level": "High",
+    "enrollment": 2200,
+    "demographics": {"SED": 26, "EL": 9, "SPED": 8},
+    "assessment": {"iReady": {"Math": 70, "Reading": 67}, "CAASPP": {"ELA": 76, "Math": 71}},
+    "attendance": 97.0,
+    "climate": 4.6
+  },
+  {
+    "id": "PUSD-037",
+    "name": "Poway Adult",
+    "level": "Alternative",
+    "enrollment": 280,
+    "demographics": {"SED": 65, "EL": 25, "SPED": 8},
+    "assessment": {"iReady": {"Math": 42, "Reading": 40}, "CAASPP": {"ELA": 45, "Math": 42}},
+    "attendance": 88.5,
+    "climate": 3.8
+  },
+  {
+    "id": "PUSD-038",
+    "name": "Poway to Palomar Middle College",
+    "level": "Alternative",
+    "enrollment": 180,
+    "demographics": {"SED": 35, "EL": 12, "SPED": 6},
+    "assessment": {"iReady": {"Math": 62, "Reading": 60}, "CAASPP": {"ELA": 66, "Math": 61}},
+    "attendance": 94.2,
+    "climate": 4.2
   }
-}
+]
